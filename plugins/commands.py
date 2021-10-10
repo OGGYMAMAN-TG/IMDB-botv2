@@ -95,18 +95,17 @@ async def start(bot, cmd):
             )
         )
     else:
-        await cmd.reply_text(
-            START_MSG,
-            parse_mode="Markdown",
-            disable_web_page_preview=True,
+        await cmd.reply_video(
+            video="https://telegra.ph/file/f02db253c11b2da4bf029.mp4",
+            caption=START_MSG,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton("Bot Updates", url="https://t.me/ULTRONBOTS")
+                        InlineKeyboardButton("😎 ʙᴏᴛ ᴏᴡɴᴇʀ 😎", url="https://t.me/OGGYMAMAN"),
+                        InlineKeyboardButton("♻️ ʙᴏᴛ ɢʀᴏᴜᴘ ♻️", url="https://t.me/mallumovie11"),
                     ],
                     [
-                        InlineKeyboardButton("About", callback_data="about")
+                        InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ👨‍💻", url="https://t.me/ivar_bonel")
                     ]
                 ]
             )
