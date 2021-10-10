@@ -14,8 +14,8 @@
       "index",
       "inline"
     ],
-    "website": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
-    "repository": "https://github.com/MRK-YT/MT-Media-Search-bot",
+    "website": "https://github.com/irash1234567/IMDB-botv2",
+    "repository": "https://github.com/irash1234567/IMDB-botv2",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
